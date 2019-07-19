@@ -2059,7 +2059,7 @@ msgid "See full bio."
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/description.php:12
-msgid "Short Story"
+msgid "Pourquoi ?"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/feature-image.php:40
