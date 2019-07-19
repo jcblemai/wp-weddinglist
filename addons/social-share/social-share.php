@@ -194,24 +194,10 @@ if ( ! class_exists('Neo_Social_Share_Init')) {
                                             <?php $funding_goal = get_post_meta( get_the_ID() , '_nf_funding_goal', true); ?>
                                             <div class="wpneo-funding-goal">
                                                 <div class="wpneo-meta-desc"><?php echo wc_price( $funding_goal ); ?></div>
-                                                <div class="wpneo-meta-name"><?php _e('Funding Goal', 'wp-crowdfunding'); ?></div>
+                                                <div class="wpneo-meta-name"><?php _e('Prix', 'wp-crowdfunding'); ?></div>
                                             </div>
         
-                                            <?php
-                                            $wpneo_campaign_end_method = get_post_meta(get_the_ID(), 'wpneo_campaign_end_method', true);
-                                            $days_remaining = apply_filters('date_expired_msg', __('0', 'wp-crowdfunding'));
-                                            if (WPNEOCF()->dateRemaining()){
-                                                $days_remaining = apply_filters('date_remaining_msg', __(WPNEOCF()->dateRemaining(), 'wp-crowdfunding'));
-                                            }
-                                            if ($wpneo_campaign_end_method != 'never_end'){ ?>
-                                                <?php if (WPNEOCF()->is_campaign_started()){ ?>
-                                                    <div class="wpneo-meta-desc"><?php echo WPNEOCF()->dateRemaining(); ?></div>
-                                                    <div class="wpneo-meta-name float-left"><?php _e( 'Days to go','wp-crowdfunding' ); ?></div>
-                                                <?php } else { ?>
-                                                    <div class="wpneo-meta-desc"><?php echo WPNEOCF()->days_until_launch(); ?></div>
-                                                    <div class="iwpneo-meta-name float-left"><?php _e( 'Days Until Launch','wp-crowdfunding' ); ?></div>
-                                                <?php } ?>
-                                            <?php } ?>
+                            
 
                                             
 

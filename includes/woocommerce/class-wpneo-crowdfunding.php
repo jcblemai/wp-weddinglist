@@ -218,13 +218,13 @@ if (! class_exists('Wpneo_Crowdfunding')) {
 
             echo '<div class="options_group"></div>';
 
-            // Funding goal/ target
+            // Prix/ target
             woocommerce_wp_text_input( 
                 array( 
                     'id'            => '_nf_funding_goal', 
-                    'label'         => __( 'Funding Goal', 'wp-crowdfunding' ).' ('.get_woocommerce_currency_symbol().')', 
-                    'placeholder'   => __( 'Funding goal','wp-crowdfunding' ), 
-                    'description'   => __('Enter the funding goal', 'wp-crowdfunding' ), 
+                    'label'         => __( 'Prix', 'wp-crowdfunding' ).' ('.get_woocommerce_currency_symbol().')', 
+                    'placeholder'   => __( 'Prix','wp-crowdfunding' ), 
+                    'description'   => __('Enter the Prix', 'wp-crowdfunding' ), 
                     'class'         => 'wc_input_price' 
                     )
             );

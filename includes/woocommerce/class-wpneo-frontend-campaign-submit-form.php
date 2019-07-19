@@ -61,7 +61,7 @@ if (! class_exists('WPNEO_Frontend_Campaign_Submit_Form')) {
                 die(json_encode(array('success'=> 0, 'message' => __('Short Description required', 'wp-crowdfunding'))));
             }
             if ( empty($_POST['wpneo-form-funding-goal'])){
-                die(json_encode(array('success'=> 0, 'message' => __('Funding goal required', 'wp-crowdfunding'))));
+                die(json_encode(array('success'=> 0, 'message' => __('Prix required', 'wp-crowdfunding'))));
             }
             if ( empty($_POST['wpneo_terms_agree'])){
                 die(json_encode(array('success'=> 0, 'message' => __('Please check terms condition', 'wp-crowdfunding'))));

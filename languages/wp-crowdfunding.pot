@@ -141,7 +141,7 @@ msgstr ""
 #: shortcode/submit-form.php:300
 #: wpneotemplate/woocommerce/basic/include/fund-raised.php:11
 #: wpneotemplate/woocommerce/basic/include/loop/funding_goal.php:11
-msgid "Funding Goal"
+msgid "Prix"
 msgstr ""
 
 #: addons/social-share/social-share.php:202
@@ -202,7 +202,7 @@ msgstr ""
 
 #: admin/includes-tab/tab-general.php:40
 msgid ""
-"Define the system you want to use to receive and manage the funds raised for "
+"Define the system you want to use to receive and manage the Déjà donné for "
 "your campaigns"
 msgstr ""
 
@@ -826,11 +826,11 @@ msgid ""
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-crowdfunding.php:226
-msgid "Funding goal"
+msgid "Prix"
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-crowdfunding.php:227
-msgid "Enter the funding goal"
+msgid "Enter the Prix"
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-crowdfunding.php:235
@@ -987,7 +987,7 @@ msgid "Short Description required"
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php:64
-msgid "Funding goal required"
+msgid "Prix required"
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php:67
@@ -1011,7 +1011,7 @@ msgid "Location: "
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-hook.php:79
-msgid "Funding Goal: "
+msgid "Prix: "
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-hook.php:85
@@ -1979,7 +1979,7 @@ msgid ""
 msgstr ""
 
 #: shortcode/submit-form.php:303
-msgid "Campaign funding goal"
+msgid "Campaign Prix"
 msgstr ""
 
 #: shortcode/submit-form.php:310
@@ -2083,7 +2083,7 @@ msgid "This campaign has been invalid or not started yet."
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-raised.php:15
-msgid "Funds Raised"
+msgid "Déjà donné"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-raised.php:38
@@ -2095,7 +2095,7 @@ msgid "No campaigns found here."
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/loop/thumbnail.php:11
-msgid "View Campaign"
+msgid "Offrir :)"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/loop/thumbnail.php:19

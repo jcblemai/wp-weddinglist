@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <div class="overlay">
 		<div>
 			<div>
-				<a href="<?php echo get_permalink(); ?>"><?php _e('View Campaign','wp-crowdfunding'); ?></a>
+				<a href="<?php echo get_permalink(); ?>"><?php _e('Offrir :)','wp-crowdfunding'); ?></a>
 			</div>
 		</div>
 	</div>

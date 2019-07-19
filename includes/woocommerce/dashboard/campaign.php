@@ -108,18 +108,15 @@ if ( $the_query->have_posts() ) :
                         <div class="wpneo-meta-name"><?php _e('Fund Raised', 'wp-crowdfunding'); ?></div>
                     </div>
 
-                    <!-- Funding Goal -->
+                    <!-- Prix -->
                     <?php $funding_goal = get_post_meta($post->ID, '_nf_funding_goal', true); ?>
                     <div class="crowdfound-funding-goal">
                         <div class="wpneo-meta-desc"><?php echo wc_price( $funding_goal ); ?></div>
-                        <div class="wpneo-meta-name"><?php _e('Funding Goal', 'wp-crowdfunding'); ?></div>
+                        <div class="wpneo-meta-name"><?php _e('Prix', 'wp-crowdfunding'); ?></div>
                     </div>
 
                     <!--  Days to go -->
-                    <?php $days_remaining = apply_filters('date_expired_msg', __('0', 'wp-crowdfunding'));
-                    if (WPNEOCF()->dateRemaining()){
-                        $days_remaining = apply_filters('date_remaining_msg', __(WPNEOCF()->dateRemaining(), 'wp-crowdfunding'));
-                    }
+
 
                     $wpneo_campaign_end_method = get_post_meta(get_the_ID(), 'wpneo_campaign_end_method', true);
 

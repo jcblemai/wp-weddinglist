@@ -76,7 +76,7 @@ if (! class_exists('WPNEO_Frontend_Hook')) {
 
             if ($funding_goal) {
                 $html .= '<div class="funding_goal">';
-                $html .= '<p class="wpneo_thumb_text">'.__('Funding Goal: ', 'wp-crowdfunding') . '<span class="price amount">'.wc_price($funding_goal).'</span>'. '</p>';
+                $html .= '<p class="wpneo_thumb_text">'.__('Prix: ', 'wp-crowdfunding') . '<span class="price amount">'.wc_price($funding_goal).'</span>'. '</p>';
                 $html .= '</div>';
             }
 

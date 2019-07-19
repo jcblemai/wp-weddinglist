@@ -80,7 +80,7 @@ if ( $the_query->have_posts() ) :
                                 <?php echo wc_price($raised); ?>
                             </span>
                             <span class="wpneo-meta-wrap">
-                                <!-- Funding Goal -->
+                                <!-- Prix -->
                                 <?php $funding_goal = get_post_meta($post->ID, '_nf_funding_goal', true); ?>
                                 <span class="wpneo-meta-name"><?php _e('Goal', 'wp-crowdfunding'); ?></span>
                                 <?php echo wc_price( $funding_goal ); ?>

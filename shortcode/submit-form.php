@@ -295,12 +295,12 @@ function wpneo_shortcode_crowdfunding_form( $atts ){
 	$html .= '</div>';
 	$html .= '</div>';
 
-    //Funding Goal
+    //Prix
     $html .= '<div class="wpneo-single">';
-    $html .= '<div class="wpneo-name">'.__( "Funding Goal" , "wp-crowdfunding" ).'</div>';
+    $html .= '<div class="wpneo-name">'.__( "Prix" , "wp-crowdfunding" ).'</div>';
     $html .= '<div class="wpneo-fields">';
     $html .= '<input type="number" name="wpneo-form-funding-goal" value="'.$funding_goal.'">';
-    $html .= '<small>'.__("Campaign funding goal","wp-crowdfunding").'</small>';
+    $html .= '<small>'.__("Campaign Prix","wp-crowdfunding").'</small>';
     $html .= '</div>';
     $html .= '</div>';
 
