@@ -132,7 +132,7 @@ msgstr ""
 #: admin/view/product_metabox_campaign_info.php:37
 #: wpneotemplate/woocommerce/basic/include/fund_raised_percent.php:9
 #: wpneotemplate/woocommerce/basic/include/loop/fund_raised_percent.php:9
-msgid "Raised Percent"
+msgid "Offert à"
 msgstr ""
 
 #: addons/social-share/social-share.php:197

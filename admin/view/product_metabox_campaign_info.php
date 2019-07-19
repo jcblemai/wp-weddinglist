@@ -34,7 +34,7 @@
         </td>
     </tr>
     <tr>
-        <td><?php _e('Raised Percent', 'wp-crowdfunding'); ?></td>
+        <td><?php _e('Offert à', 'wp-crowdfunding'); ?></td>
         <td><span class="label-danger"><?php echo WPNEOCF()->getFundRaisedPercentFormat(); ?></span></td>
     </tr>
 </table>
