@@ -261,7 +261,7 @@ if (! class_exists('WP_Crowdfunding_Shortcode')) {
 				'show_input_box'        => 'true',
 				'min_amount'            => '',
 				'max_amount'            => '',
-				'donate_button_text'    => __('Back Campaign', 'wp-crowdfunding'),
+				'donate_button_text'    => __('Offrir !', 'wp-crowdfunding'),
 			), $atts, 'wp_crowdfunding_donate' );
 
 			if ( ! $atts['campaign_id']){

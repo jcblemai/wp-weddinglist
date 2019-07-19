@@ -585,7 +585,7 @@ msgstr ""
 
 #: includes/class-wp-crowdfunding-shortcode.php:264
 #: wpneotemplate/woocommerce/basic/include/fund-campaign-btn.php:54
-msgid "Back Campaign"
+msgid "Offrir !"
 msgstr ""
 
 #: includes/class-wp-crowdfunding-shortcode.php:268
