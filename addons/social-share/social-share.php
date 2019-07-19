@@ -208,7 +208,7 @@ if ( ! class_exists('Neo_Social_Share_Init')) {
                                             ?>
                                             <div class="wpneo-fund-raised">
                                                 <div class="wpneo-meta-desc"><?php echo wc_price($raised); ?></div>
-                                                <div class="wpneo-meta-name"><?php _e('Fund Raised', 'wp-crowdfunding'); ?></div>
+                                                <div class="wpneo-meta-name"><?php _e('Déjà offert', 'wp-crowdfunding'); ?></div>
                                             </div>
         
                                         </div>                     

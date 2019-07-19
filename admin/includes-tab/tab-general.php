@@ -37,7 +37,7 @@ $arr =  array(
             'woocommerce' => __('Woocommerce','wp-crowdfunding'),
         ),
         'label'     => __('Funds Manager','wp-crowdfunding'),
-        'desc'      => __('Define the system you want to use to receive and manage the Déjà donné for your campaigns','wp-crowdfunding'),
+        'desc'      => __('Define the system you want to use to receive and manage the Déjà offert for your campaigns','wp-crowdfunding'),
     ),
 
     // #Default Campaign Status

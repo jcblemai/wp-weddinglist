@@ -105,7 +105,7 @@ if ( $the_query->have_posts() ) :
                     ?>
                     <div class="crowdfound-fund-raised">
                         <div class="wpneo-meta-desc"><?php echo wc_price($raised); ?></div>
-                        <div class="wpneo-meta-name"><?php _e('Fund Raised', 'wp-crowdfunding'); ?></div>
+                        <div class="wpneo-meta-name"><?php _e('Déjà offert', 'wp-crowdfunding'); ?></div>
                     </div>
 
                     <!-- Prix -->

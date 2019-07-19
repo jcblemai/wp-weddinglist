@@ -173,7 +173,7 @@ msgstr ""
 #: includes/woocommerce/dashboard/campaign.php:108
 #: includes/woocommerce/dashboard/chartreports/wpcrowd-reports-chart.php:221
 #: wpneotemplate/woocommerce/basic/include/loop/fund_raised.php:14
-msgid "Fund Raised"
+msgid "Déjà offert"
 msgstr ""
 
 #: addons/social-share/social-share.php:245
@@ -202,7 +202,7 @@ msgstr ""
 
 #: admin/includes-tab/tab-general.php:40
 msgid ""
-"Define the system you want to use to receive and manage the Déjà donné for "
+"Define the system you want to use to receive and manage the Déjà offert for "
 "your campaigns"
 msgstr ""
 
@@ -2083,7 +2083,7 @@ msgid "This campaign has been invalid or not started yet."
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-raised.php:15
-msgid "Déjà donné"
+msgid "Déjà offert"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-raised.php:38

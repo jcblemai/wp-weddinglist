@@ -218,7 +218,7 @@ $pladges_received = get_date_range_pladges_received($from_date, $to_date);
 
     <div class="wpneo-dashboard-summary wpneo-clearfix">
         <ul>
-            <li class="active"><span class="wpneo-value"> <?php echo wc_price(array_sum($total_backers_amount_ever)); ?></span><span class="wpneo-value-info"><?php _e( "Fund Raised" , "wp-crowdfunding" ); ?></span></li>
+            <li class="active"><span class="wpneo-value"> <?php echo wc_price(array_sum($total_backers_amount_ever)); ?></span><span class="wpneo-value-info"><?php _e( "Déjà offert" , "wp-crowdfunding" ); ?></span></li>
             <li><span class="wpneo-value"><?php echo array_sum($sales_count_ever); ?></span><span class="wpneo-value-info"><?php _e( "Total Backed" , "wp-crowdfunding" ); ?></span></li>
             <li><span class="wpneo-value"><?php echo count($pladges_received); ?></span><span class="wpneo-value-info"><?php _e( "Pledge Received" , "wp-crowdfunding" ); ?></span></li>
         </ul>
