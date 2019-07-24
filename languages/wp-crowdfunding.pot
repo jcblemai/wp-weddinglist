@@ -995,7 +995,7 @@ msgid "Please check terms condition"
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php:189
-msgid "Campaign successfully submitted"
+msgid "Le cadeau a été offert ! Merci beaucoup."
 msgstr ""
 
 #: includes/woocommerce/class-wpneo-frontend-hook.php:63
@@ -2075,7 +2075,7 @@ msgid "Maximum amount is "
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-campaign-btn.php:63
-msgid "The campaign is successful."
+msgid "Le cadeau a été offert. Merci beaucoup !"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/fund-campaign-btn.php:65
@@ -2099,7 +2099,7 @@ msgid "Offrir :)"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/loop/thumbnail.php:19
-msgid "Successful"
+msgid "Offert"
 msgstr ""
 
 #: wpneotemplate/woocommerce/basic/include/pagination.php:20

@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php
 if( WPNEOCF()->is_reach_target_goal() ){
 	echo '<span class="wpcf-successful">';
-		_e('Successful','wp-crowdfunding');
+		_e('Offert !','wp-crowdfunding');
 	echo '</span>';
 }
 ?>
