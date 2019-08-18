@@ -250,7 +250,7 @@ if (! class_exists('WPNEO_Frontend_Hook')) {
             $total = $this->totalFundRaisedByCampaign($campaign_id);
             $goal = $this->totalGoalByCampaign($campaign_id);
             if ($total > 0 && $goal > 0  ) {
-                $percent = number_format($total / $goal * 100, 2, '.', '');
+                $percent = number_format($total / $goal * 100, 0, '.', '');
             }
             return $percent;
         }
