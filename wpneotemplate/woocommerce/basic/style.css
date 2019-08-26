@@ -318,6 +318,7 @@ a.wpneo-single-main-image{
 }
 .wpneo-listings.four{
     width: 25%;
+    position: relative;
 }
 .wpneo-listings.first{
     padding-left: 0px;
